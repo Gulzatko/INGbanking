@@ -46,24 +46,24 @@ body{
     cursor: pointer;
 }
 #hero{
-   
     padding-bottom: 50px;
     background-color: #105749;
-    height: 550px;
+    height: 630px;
 
      
 }
 #hero-box{
     width:100%;
     background-color: #105749;
+   
 }
 #hero-text{
   width:60%; 
-  margin-top: 25px;
+  margin-top: 100px;
 
 }
 #hero-subtitle{
-    color: goldenrod;
+    color: rgb(239, 183, 43);
     text-transform: uppercase;
     text-align:start;
     font-weight: 400;
@@ -72,13 +72,147 @@ body{
     color:wheat;
     text-transform: uppercase;
     font-weight: 500;
+    text-align: start;
+   
 }
 #experience{
     color:yellowgreen;
 }
+#hero-description{
+    color: antiquewhite;
+     font-weight: 300;
+     text-align: start;
+}
+
 #hero img{
     width:40%;
-    min-height: 80%;
-    margin: 0 0 80px 20px;
-    
+    min-height:80%;
+    margin: 0 0 80px 20px; 
+    border-bottom-right-radius: 20px; 
+    border-bottom-left-radius: 20px;
 }
+#hero-btn{
+    display: flex;
+   
+}
+.yellow-btn{
+    margin-right: 20px;
+    border-radius: 30px;
+    width:130px;
+    padding: 15px 25px;
+    border: 3px solid #1e5e53;
+    background: linear-gradient(to right,#338b6a,rgb(169, 222, 64) );
+}
+.green-btn{
+   border-radius: 25px;
+   width:110px;
+   background: transparent;
+   color: aliceblue;
+   padding: 0 10px;
+   border: 2px solid white;
+}
+#pay-box{
+    margin: 0 auto;
+    height:680px;
+}
+
+#pay{
+    display: flex;
+    background: rgb(235, 235, 212);
+    width:100%;
+    height:100%;
+    align-items: center;
+    justify-items: center;
+    padding: 50px 30px;
+}
+
+.boxes{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width:20%;
+    margin-right:10px;
+    margin-bottom: 80px;
+   
+}
+.boxes div{
+    border: 1px solid rgb(244, 175, 47);
+    width: 60px;
+    height: 70px;
+    border-radius:10px;
+    margin-bottom: 10px;
+}
+#pay-image{
+   width:45%;
+   margin-right: 80px;
+   display: flex;
+   height: 100%;
+   padding: 10px 10px 5px 10px;
+}
+#pay-image-box{
+    position:relative;
+    display: inline-block;
+}
+
+#pay-image img{
+   border-radius:30px;
+   width:100%;
+   display: block;
+   height: 550px;  
+}
+.pop-freddie{
+    position: absolute;
+    top:100px;
+    right:-25px;
+    background: white;   
+}
+#popup-balance{
+    position: absolute;
+    bottom: 200px;
+    left:-55px;
+    background: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+#pay-text{
+    width:45%;
+    height:500px;
+    margin: 0 auto;
+    padding: 70px 150px 0 150px;
+  
+}
+#pay-subtitle, #pay-text{
+    color: #0c2823;
+}
+#pay-subtitle{
+    font-size: medium;
+    font-weight:350;
+    text-align:start;
+     width: 100%;
+     margin-bottom: 35px;
+}
+
+#pay-text p{
+    width:100%;
+    color: #0c2823;
+    text-transform: uppercase;
+    text-wrap:initial;
+    font-weight:300;
+    margin-bottom: 35px;
+}
+#pay-text input{
+    border: 2px solid #105749;
+    color: #105749;
+    border-radius: 20px;
+    width:120px;
+    padding: 10px 25px;
+
+}
+#pay-text input[type="button"]:focus{
+    background-color: #105749;
+    color:white;
+    cursor: pointer;
+}
+
+
